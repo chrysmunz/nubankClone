@@ -6,10 +6,12 @@ import Header from '../../components/Header';
 import Tabs from '../../components/Tabs';
 import Menu from '../../components/Menu';
 
+import styles from './styles'
+
 export default function Main() {
     return (
-        <SafeAreaView>
-            <Text>Hello World</Text>
+        <SafeAreaView style={styles.container}>
+            <Header/>
         </SafeAreaView>
         
     );
