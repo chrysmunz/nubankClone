@@ -11,7 +11,8 @@ import styles from './styles'
 export default function Main() {
     return (
         <SafeAreaView style={styles.container}>
-            <Header/>
+            <Header />
+            <Tabs />
         </SafeAreaView>
         
     );
