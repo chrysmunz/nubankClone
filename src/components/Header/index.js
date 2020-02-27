@@ -12,7 +12,7 @@ export default function Header() {
                 <Text style={styles.nome}>Chrystian</Text>
             </View>
             <View style={styles.footer}>
-                <Image source={require('../../assets/arrow.png')}/>
+                <Image source={require('../../assets/Header_Arrow.png')}/>
             </View>
         </View>
     );
