@@ -56,14 +56,12 @@ export default function Tabs() {
 
     function renderItem({ item: menu }) {
         return (
-            <TouchableOpacity>
-                <View style={styles.item}>
-                    <Image style={styles.img} source={menu.icon}/>
-                    <View style={styles.areaText}>
-                        <Text style={styles.text}>{menu.title}</Text>
-                    </View>
+            <TouchableOpacity style={styles.item}>
+                <Image style={styles.img} source={menu.icon}/>
+                <View style={styles.areaText}>
+                    <Text style={styles.text}>{menu.title}</Text>
                 </View>
-            </TouchableOpacity>
+            </TouchableOpacity>     
         );
     }
 

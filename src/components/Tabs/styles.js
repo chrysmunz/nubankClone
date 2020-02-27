@@ -1,13 +1,16 @@
 import { StyleSheet } from 'react-native';
-import { colors } from 'react-native-elements';
 
 const styles = StyleSheet.create({
     container: {
-        margin: 14
+        position: 'absolute',
+        marginHorizontal: 10,
+        marginTop: 530
     },
     item: {
         backgroundColor: '#9932BC',
-        margin: 4,
+        marginTop: 4,
+        marginLeft: 4,
+        marginRight: 4,
         height: 100,
         width: 90,
         borderRadius: 7
@@ -25,9 +28,7 @@ const styles = StyleSheet.create({
     text: {
         marginTop: 10,
         marginLeft: 5,
-        
         color: '#FFF',
-
     }
 })
 
