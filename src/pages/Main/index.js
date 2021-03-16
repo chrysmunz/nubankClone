@@ -1,10 +1,9 @@
 import React from 'react';
 
-import { View, SafeAreaView, Text } from 'react-native';
+import { SafeAreaView } from 'react-native';
 
 import Header from '../../components/Header';
 import Tabs from '../../components/Tabs';
-import Menu from '../../components/Menu';
 import Card from '../../components/Card';
 
 import styles from './styles'
